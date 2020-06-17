@@ -1,0 +1,20 @@
+.experience {
+    border-radius: 0;
+    margin-bottom: 5px;
+    background-color:  #fafafa;
+    border-color:  #00babc;
+    color: #00babc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience:hover {
+    background-color: #39d6d6;
+    border-color:#39d6d6;
+}
+
+.jobLabel {
+    display: flex;
+    flex-direction: column;
+}
