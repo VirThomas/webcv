@@ -2,22 +2,25 @@ import React, { useState } from 'react';
 import './home.css'
 import Button from 'react-bootstrap/Button'
 import CustomBtn from '../../components/modalBtn/modalBtn'
+import profilePic from './photoprofil.png'
 
 
 const Home = () => {
     return (
         <>
             <section className="header">
-                <div className="picture">
-                    {/* Maybe a picture */}
-                </div>
-                <div className="bigPanel">
-                    <h2>
-                        Thomas ABDOUL AZID
-            </h2>
-                    <h1>
-                        Développeur ReactJs
-            </h1>
+                <div className="profile">
+                    <div className="bigPanel">
+                        <h2>
+                            Thomas ABDOUL AZID
+                    </h2>
+                        <h1>
+                            Développeur ReactJs
+                    </h1>
+                    </div>
+                    <div class="image-cropper">
+                        <img src={profilePic} alt="avatar" className="profile-pic" />
+                    </div>
                 </div>
                 <div className="myInfos">
                     <span className="infoLabel">Email : </span> <span className="persoInfos">thomas.abdoulazid@gmail.com</span>
@@ -28,7 +31,7 @@ const Home = () => {
             </section>
             <section className="body">
                 <div className="bodyBlock">
-                    <h4 className="profileTitle">Experience Profesionnelle</h4>
+                    <h5 className="profileTitle">Experiences Pro</h5>
                     <div className="blockContent">
                         <CustomBtn date="09/2019 - 09/2020" company="Veepee" job="Developpeur FullStack" />
                         <CustomBtn date="08/2018 - 02/2019" company="Captive" job="Developpeur Ruby on Rails" />
@@ -37,7 +40,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="bodyBlock">
-                    <h4 className="profileTitle">Parcours</h4>
+                    <h5 className="profileTitle">Parcours</h5>
                     <div className="blockContent">
                         <span>1</span>
                         <span>2</span>
@@ -46,7 +49,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="bodyBlock">
-                    <h4 className="profileTitle">Projets</h4>
+                    <h5 className="profileTitle">Projets</h5>
                     <div className="blockContent">
                         <span>1</span>
                         <span>2</span>
@@ -55,7 +58,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="bodyBlock">
-                    <h4 className="profileTitle">Me contacter</h4>
+                    <h5 className="profileTitle">Me contacter</h5>
                     <div className="blockContent">
                         <Button className="contactBtn">Contact me </Button>
                     </div>

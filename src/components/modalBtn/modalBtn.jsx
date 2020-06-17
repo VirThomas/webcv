@@ -3,6 +3,18 @@ import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
 import './modalBtn.css'
 
+const setParagraphe = (company) => {
+    if (company === "Veepee") {
+        return "Développement de 4 Projets sur 12 mois : \n-Indexation d'une base de données sur un moteur de recherche sous SolR. Stack : Golang, SolR \n \n -Creation d'un POC d'une application web permettant de tracker en temps reel les echantillons dans les entrepots. Stack : NodeJs / Elm \n \n -Rajout de la possibilité d'ajouter au panier depuis une webview ainsi que l'integration de la caméra pour acceder a un service d'essayage de rouges a levres en AR. Stack : Java-Kotlin/ReactJs"
+    }
+    if (company === "Captive") {
+        return "Captive"
+    }
+    if (company === "Cora") {
+        return "Cora"
+    }
+}
+
 function MyVerticallyCenteredModal(props) {
     return (
         <Modal
@@ -13,16 +25,15 @@ function MyVerticallyCenteredModal(props) {
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    Modal heading
-          </Modal.Title>
+                    {props.props.company}
+                </Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <h4>Centered Modal</h4>
                 <p>
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros.
-          </p>
+                    {props.text}
+                    <br />
+                </p>
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>
@@ -33,6 +44,7 @@ function MyVerticallyCenteredModal(props) {
 
 const CustomBtn = (props) => {
     const [modalShow, setModalShow] = React.useState(false);
+    const paragraphe = setParagraphe(props.company);
     return (
         <>
             <Button className="experience" variant="primary" onClick={() => setModalShow(true)}>
@@ -45,6 +57,8 @@ const CustomBtn = (props) => {
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
+                text={paragraphe}
+                props={props}
             />
         </>
     )
