@@ -16,10 +16,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="myInfos">
-                <span className="infoLabel">Email : </span> <span className="persoInfos"><a href="mailto:john@example.com">thomas.abdoulazid@gmail.com</a></span>
+                <span className="infoLabel">Email : </span> <span className="persoInfos"><a href="mailto:thomas.abdoulazid@gmail.com">thomas.abdoulazid@gmail.com</a></span>
                 <span className="infoLabel">Tel : </span> <span className="persoInfos"><a href="tel:0782149953">07.82.14.99.53</a></span>
                 <span className="infoLabel">Adresse : </span> <span className="persoInfos"><a href="https://www.google.com/maps/place/207+Jardin+de+l'Arche,+92000+Nanterre/@48.8944585,2.2284248,17z/data=!3m1!4b1!4m5!3m4!1s0x47e664feb366cecb:0xe68404678e40c5e0!8m2!3d48.894455!4d2.2306135">207 jardin de l'arche <br />92000 Nanterre </a></span>
-                <span className="infoLabel">Linkedin : </span> <span className="persoInfos"><a href={linkedin} target="_blank" rel="noopener noreferrer">Linkedin </a></span>
             </div>
         </section>
     )

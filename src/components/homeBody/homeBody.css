@@ -1,5 +1,5 @@
 .homeBody {
-    background-color: #fafafa;
+    background-color: #f7f7f7;
     height: 500px;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
@@ -13,7 +13,7 @@
     background-color: #ffffff;
     border: 1px solid #f7f7f7;
     justify-content: center;
-    box-shadow: 3px 3px 3px grey;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .profileTitle {
@@ -21,6 +21,8 @@
     justify-content: center;
     border-bottom: 2px solid transparent;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
     
 }
 
@@ -82,21 +84,20 @@
         font-size: small;
     }
     .homeBody {
-        background-color: #fafafa;
-        height: 500px;
+        background-color: #f7f7f7;
+        height: auto;
         display: flex;
         flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
-    .header {
-        margin-bottom: 150px;
-    }
+
     .bodyBlock {
         height: 200px;
         width: 80%;
         margin-top: 10px;
         background-color: #ffffff;
         border: 1px solid #f7f7f7;
-        box-shadow: 3px 3px 3px grey;
     }
 
     .bigPanel {
@@ -108,9 +109,6 @@
     }
     .image-cropper {
         margin: 20px;
-    }
-    .footer {
-        margin-top: 150px;
     }
     .profile {
         flex-direction: column;

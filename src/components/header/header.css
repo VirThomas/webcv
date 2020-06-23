@@ -24,7 +24,7 @@
     height: 200px;
     width: 80%;
     display: grid;
-    grid-template: repeat(4, auto) / repeat(2, auto);
+    grid-template: repeat(3, auto) / repeat(2, auto);
     text-align: center;
     padding: 10px 10px 10px 10px;
     font-size: large;
