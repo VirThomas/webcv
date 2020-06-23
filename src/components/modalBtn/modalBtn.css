@@ -9,18 +9,26 @@
     align-items: center;
 }
 
-.experience:hover {
+.experience:hover, .closeBtn:hover {
     background-color: #39d6d6;
     border-color:#39d6d6;
 }
 
-.experience:focus {
+.experience:focus, .closeBtn:focus {
     background-color: #39d6d6;
     border-color:#39d6d6;
 }
 
+.closeBtn {
+    background-color: #39d6d6;
+    border-color:#39d6d6;
+}
 
 .jobLabel {
     display: flex;
     flex-direction: column;
+}
+
+.display-linebreak {
+    white-space: pre-line;
 }

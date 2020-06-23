@@ -1,0 +1,122 @@
+.homeBody {
+    background-color: #fafafa;
+    height: 500px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-content: center;
+}
+
+.bodyBlock {
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid #f7f7f7;
+    justify-content: center;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.profileTitle {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.blockContent {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+
+.btn-primary.active, .btn-primary:active {
+    background-color:  #00babc !important;
+    border-color: #00babc !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.contactBtn {
+    background-color:  #00babc !important;
+    border-color:  #00babc;
+}
+
+.contactBtn:hover {
+    background-color: #39d6d6 !important;
+    border-color:#39d6d6;
+}
+
+.contactBtn:active {
+    background-color: #39d6d6 !important;
+    border-color:#39d6d6;
+}
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+.skill {
+    background-color: #39d6d6;
+    padding: 10px;
+    width: 25%;
+    margin: 2px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: small;
+    }
+    .homeBody {
+        background-color: #fafafa;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        margin-bottom: 150px;
+    }
+    .bodyBlock {
+        height: 200px;
+        width: 80%;
+        margin-top: 10px;
+        background-color: #ffffff;
+        border: 1px solid #f7f7f7;
+        box-shadow: 3px 3px 3px grey;
+    }
+
+    .bigPanel {
+        margin-bottom: 0px;
+    }
+
+    .experience {
+        min-height: 70%;
+    }
+    .image-cropper {
+        margin: 20px;
+    }
+    .footer {
+        margin-top: 150px;
+    }
+    .profile {
+        flex-direction: column;
+    }
+}
+
+.apropos {
+    margin: auto;
+}

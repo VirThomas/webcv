@@ -5,17 +5,49 @@ import './modalBtn.css'
 
 const setParagraphe = (company) => {
     if (company === "Veepee") {
-        return "Développement de 4 Projets sur 12 mois : \n-Indexation d'une base de données sur un moteur de recherche sous SolR. Stack : Golang, SolR \n \n -Creation d'un POC d'une application web permettant de tracker en temps reel les echantillons dans les entrepots. Stack : NodeJs / Elm \n \n -Rajout de la possibilité d'ajouter au panier depuis une webview ainsi que l'integration de la caméra pour acceder a un service d'essayage de rouges a levres en AR. Stack : Java-Kotlin/ReactJs"
+        // eslint-disable-next-line
+        return "Développement de 4 Projets sur 12 mois : \n\
+        - Indexation d'une base de données sur un moteur de recherche sous SolR. Stack : Golang, SolR \n\
+        - Creation d'un POC d'une application web permettant de tracker en temps reel les echantillons dans les entrepots. Stack : NodeJs / Elm \n\
+        - Rajout de la possibilité d'ajouter au panier depuis une webview ainsi que l'integration de la caméra pour acceder a un service d'essayage de rouges a levres en AR.Stack : Java - Kotlin / ReactJs"
     }
     if (company === "Captive") {
-        return "Captive"
+        // eslint-disable-next-line
+        return "Développement de features sur plusieurs projets : \n\
+        - TDD (Test Driven Development)\n\
+        - CI (Intégration continue)\n\
+        - Code Review\n\
+        - Méthodes agiles (kanban, rétrospectives, poker planning, ...)\n\
+        Stack : Ruby/Ruby on Rails, Html/Css, Heroku, Git, Redis, PostgreSQL"
     }
     if (company === "Cora") {
-        return "Cora"
+        return "Mise en rayon"
+    }
+    if (company === "Printemps") {
+        // eslint-disable-next-line
+        return "Secteur Horlogerie :\n\
+        - Réalisation des vitrines\n\
+        - Vente directe au client\n\
+        - Fidélisation du client"
+    }
+    if (company === "École 42") {
+        // eslint-disable-next-line
+        return "Formation à la programmation en C :\n\
+        - Auto-apprentissage\n\
+        - Peer-to-peer\n\
+        - Réalisation d'un résolveur de Tetris (Backtracking)\n\
+        - Creation d'un Ray - Tracer avec mouvements de caméra en temps réel."
+    }
+    if (company === "IFA Metz" || company === "IPF Paris") {
+        const annee = company === "IPF Paris" ? "(1ere annee)." : "(2eme annee)."
+        return "Préparation d'un BTS Management des unités commerciales en alternance " + annee
+    }
+    if (company === "Lycée") {
+        return "Obtention d'un Baccalauréat Économique et Social."
     }
 }
 
-function MyVerticallyCenteredModal(props) {
+function MyModal(props) {
     return (
         <Modal
             {...props}
@@ -29,14 +61,13 @@ function MyVerticallyCenteredModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Centered Modal</h4>
-                <p>
+                <h4>{props.props.date}</h4>
+                <p className="display-linebreak">
                     {props.text}
-                    <br />
                 </p>
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={props.onHide}>Close</Button>
+                <Button className="closeBtn" onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
     );
@@ -44,7 +75,6 @@ function MyVerticallyCenteredModal(props) {
 
 const CustomBtn = (props) => {
     const [modalShow, setModalShow] = React.useState(false);
-    const paragraphe = setParagraphe(props.company);
     return (
         <>
             <Button className="experience" variant="primary" onClick={() => setModalShow(true)}>
@@ -54,10 +84,10 @@ const CustomBtn = (props) => {
                     <div className="job">{props.job}</div>
                 </div>
             </Button>
-            <MyVerticallyCenteredModal
+            <MyModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
-                text={paragraphe}
+                text={setParagraphe(props.company)}
                 props={props}
             />
         </>

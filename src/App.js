@@ -10,7 +10,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from './logo.svg';
 import Home from './pages/home/home'
-import Aboutme from './pages/aboutme/aboutme'
 import { motion } from "framer-motion"
 
 import './App.css';
@@ -18,7 +17,7 @@ import './App.css';
 const App = () => (
   <Router>
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="/">
+      <Navbar.Brand as={Link} to="/">
         <img
           src={Logo}
           width="50"
@@ -28,35 +27,19 @@ const App = () => (
         />
       </Navbar.Brand>
       <motion.div
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}>
-        <Navbar.Brand as={Link} to="/">React-Bootstrap</Navbar.Brand>
+        whileHover={{ scale: 1.03 }}
+        whileTap={{ scale: 0.5 }}>
+        <Navbar.Brand as={Link} to="/">Home</Navbar.Brand>
       </motion.div>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}>
-            <Nav.Link as={Link} to="/about">About me</Nav.Link>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}>
-            <Nav.Link as={Link} to="/about">Linkedin</Nav.Link>
-          </motion.div>
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.9 }}>
-            <Nav.Link as={Link} to="/link">Github</Nav.Link>
-          </motion.div>
+          <Nav.Link href="//linkedin.com/in/thomasabd" target="_blank" rel="noopener noreferrer">Linkedin</Nav.Link>
+          <Nav.Link href="//github.com/VirThomas" target="_blank" rel="noopener noreferrer">Github</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
     <Switch>
-      <Route path="/about">
-        <Aboutme />
-      </Route>
       <Route path="/">
         <Home />
       </Route>
