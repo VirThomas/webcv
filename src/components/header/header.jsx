@@ -3,7 +3,6 @@ import profilePic from './photoprofil.png'
 import './header.css'
 
 const Header = () => {
-    const linkedin = "//linkedin.com/in/thomasabd"
     return (
         <section className="header">
             <div className="profile">
