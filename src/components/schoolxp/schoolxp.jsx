@@ -9,7 +9,7 @@ const Schoolxp = () => {
                 <CustomBtn date="2017-2020" company="École 42" />
                 <CustomBtn date="2015-2016" company="IFA Metz" />
                 <CustomBtn date="2014-2015" company="IPF Paris" />
-                <CustomBtn date="2013-2014" company="Lycée" job="Jean Lurçat" />
+                <CustomBtn date="2013-2014" company="Lycée Jean Lurçat" />
             </div>
         </>
     )

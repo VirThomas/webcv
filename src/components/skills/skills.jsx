@@ -15,6 +15,9 @@ const Skills = () => {
                 <Badge className="skill" variant="primary">C</Badge>
                 <Badge className="skill" variant="primary">C#</Badge>
                 <Badge className="skill" variant="primary">Go</Badge>
+                <Badge className="skill" variant="primary">Python</Badge>
+                <Badge className="skill" variant="primary">Selenium</Badge>
+                <Badge className="skill" variant="primary">Puppeteer</Badge>
                 <Badge className="skill" variant="primary">PostgreSQL</Badge>
                 <Badge className="skill" variant="primary">Redis</Badge>
                 <Badge className="skill" variant="primary">Github/Gitlab</Badge>
