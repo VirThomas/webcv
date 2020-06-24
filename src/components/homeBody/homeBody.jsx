@@ -8,6 +8,15 @@ const HomeBody = () => {
     return (
         <section className="homeBody">
             <div className="bodyBlock">
+                <h5 className="profileTitle">À propos de moi</h5>
+                <div className="blockContent">
+                    <p className="apropos">
+                        Après 3 ans et demi de formation, dont 1 an et demi en entreprise,
+                        je suis en recherche de missions pour pratiquer les technos que j'affectionne particulièrement : Ruby, Rails et React.
+                    </p>
+                </div>
+            </div>
+            <div className="bodyBlock">
                 <h5 className="profileTitle">Experiences Pro</h5>
                 <div className="blockContent">
                     <CustomBtn date="09/2019 - 09/2020 (1 an)" company="Veepee" job="Developpeur FullStack" />
@@ -21,15 +30,6 @@ const HomeBody = () => {
             </div>
             <div className="bodyBlock">
                 <Skills />
-            </div>
-            <div className="bodyBlock">
-                <h5 className="profileTitle">À propos de moi</h5>
-                <div className="blockContent">
-                    <p className="apropos">
-                        Après 3 ans et demi de formation, dont 1 an et demi en entreprise,
-                        je suis en recherche de missions pour pratiquer les technos que j'affectionne particulièrement : Ruby, Rails et React.
-                    </p>
-                </div>
             </div>
         </section>
     )
