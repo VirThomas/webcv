@@ -8,8 +8,8 @@ const setParagraphe = (company) => {
         // eslint-disable-next-line
         return "Développement de 4 Projets sur 12 mois : \n\
         - Indexation d'une base de données sur un moteur de recherche sous SolR. Stack : Golang, SolR \n\
-        - Creation d'un POC d'une application web permettant de tracker en temps reel les echantillons dans les entrepots. Stack : NodeJs / Elm \n\
-        - Rajout de la possibilité d'ajouter au panier depuis une webview ainsi que l'integration de la caméra pour acceder a un service d'essayage de rouges a levres en AR.Stack : Java - Kotlin / ReactJs"
+        - Création d'un POC d'une application web permettant de tracker en temps reel les echantillons dans les entrepots. Stack : NodeJs / Elm \n\
+        - Implémentation de la possibilité d'ajouter au panier depuis une webview via des calls API ainsi que l'integration de la caméra pour acceder a un service d'essayage de rouges a levres en AR. Stack : Java - Kotlin / ReactJs"
     }
     if (company === "Captive") {
         // eslint-disable-next-line
@@ -42,7 +42,7 @@ const setParagraphe = (company) => {
         const annee = company === "IPF Paris" ? "(1ere annee)." : "(2eme annee)."
         return "Préparation d'un BTS Management des unités commerciales en alternance " + annee
     }
-    if (company === "Lycée") {
+    if (company === "Lycée Jean Lurçat") {
         return "Obtention d'un Baccalauréat Économique et Social."
     }
 }
