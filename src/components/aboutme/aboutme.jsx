@@ -7,7 +7,7 @@ const Aboutme = () => {
             <div className="blockContent">
                 <p className="apropos">
                     Après 3 ans et demi de formation, dont 1 an et demi en entreprise,
-                    je suis en recherche de missions pour pratiquer les technos que j'affectionne particulièrement : Ruby, Rails et React.
+                    je suis en recherche de missions pour pratiquer les technos que j'affectionne particulièrement : Ruby/Rails et Node/React.
                     </p>
             </div>
         </>
