@@ -6,11 +6,11 @@ const Skills = () => {
         <>
             <h5 className="profileTitle">Compétences techniques</h5>
             <div className="skills">
-                <Badge className="skill" variant="primary">ReactJs</Badge>
-                <Badge className="skill" variant="primary">NodeJs</Badge>
-                <Badge className="skill" variant="primary">Electron</Badge>
                 <Badge className="skill" variant="primary">Ruby</Badge>
                 <Badge className="skill" variant="primary">Ruby on Rails</Badge>
+                <Badge className="skill" variant="primary">NodeJs</Badge>
+                <Badge className="skill" variant="primary">ReactJs</Badge>
+                <Badge className="skill" variant="primary">Electron</Badge>
                 <Badge className="skill" variant="primary">HTML/CSS</Badge>
                 <Badge className="skill" variant="primary">C</Badge>
                 <Badge className="skill" variant="primary">C#</Badge>

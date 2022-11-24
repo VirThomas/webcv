@@ -4,6 +4,14 @@ import Modal from 'react-bootstrap/Modal'
 import './modalBtn.css'
 
 const setParagraphe = (company) => {
+    if (company === "Plezi") {
+        // eslint-disable-next-line
+        return "Maintenance et évolution de la base de code Legacy : \n\
+        - Développement d'un micro service utilisant Kafka, Playwright, et PGSql en BDD. \n\
+        - Mise en place des méthodologies agiles au sein de mon équipe\n\
+        - Toujours orienté clients/Utilisateursn\n\
+        - Accompagnement des nouveaux arrivants sur le produit."
+    }
     if (company === "Veepee") {
         // eslint-disable-next-line
         return "Développement de 4 Projets sur 12 mois : \n\
