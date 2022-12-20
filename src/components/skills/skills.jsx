@@ -11,16 +11,16 @@ const Skills = () => {
                 <Badge className="skill" variant="primary">NodeJs</Badge>
                 <Badge className="skill" variant="primary">ReactJs</Badge>
                 <Badge className="skill" variant="primary">Electron</Badge>
-                <Badge className="skill" variant="primary">HTML/CSS</Badge>
+                <Badge className="skill" variant="primary">Python</Badge>
                 <Badge className="skill" variant="primary">C</Badge>
                 <Badge className="skill" variant="primary">C#</Badge>
-                <Badge className="skill" variant="primary">Go</Badge>
-                <Badge className="skill" variant="primary">Python</Badge>
+                <Badge className="skill" variant="primary">Docker</Badge>
+                <Badge className="skill" variant="primary">Sidekiq</Badge>
                 <Badge className="skill" variant="primary">Selenium</Badge>
                 <Badge className="skill" variant="primary">Puppeteer</Badge>
                 <Badge className="skill" variant="primary">PostgreSQL</Badge>
                 <Badge className="skill" variant="primary">Redis</Badge>
-                <Badge className="skill" variant="primary">Github/Gitlab</Badge>
+                <Badge className="skill" variant="primary">Git</Badge>
             </div>
         </>
     )

@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "./photoprofil.png";
+import profilePic from "./photoprofil.jpeg";
 import "./header.css";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <section className="header">
       <div className="profile">
         <div className="bigPanel">
-          <h3>Thomas ABDOUL AZID</h3>
+          <h3>Thomas A.</h3>
           <h1>Développeur Ruby/Rails - Node/React</h1>
         </div>
         <div class="image-cropper">
@@ -27,9 +27,9 @@ const Header = () => {
         </span>
         <span className="infoLabel">Adresse : </span>{" "}
         <span className="persoInfos">
-          <a href="https://www.google.com/maps/place/207+Jardin+de+l'Arche,+92000+Nanterre/@48.8944585,2.2284248,17z/data=!3m1!4b1!4m5!3m4!1s0x47e664feb366cecb:0xe68404678e40c5e0!8m2!3d48.894455!4d2.2306135">
-            207 jardin de l'arche <br />
-            92000 Nanterre{" "}
+          <a href="https://www.google.com/maps/place/32b+Bd+Haussmann,+75009+Paris/@48.8729407,2.3322085,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e3760fa3ed1:0xd7a0d9dd7d4beb0!8m2!3d48.8729407!4d2.3343972">
+            32B Boulevard Haussmann <br />
+            75009 Paris{" "}
           </a>
         </span>
       </div>
