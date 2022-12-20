@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/webcv/static/css/main.31ad1170.chunk.css",
-    "main.js": "/webcv/static/js/main.db62d15a.chunk.js",
-    "main.js.map": "/webcv/static/js/main.db62d15a.chunk.js.map",
-    "runtime-main.js": "/webcv/static/js/runtime-main.b2ceac91.js",
-    "runtime-main.js.map": "/webcv/static/js/runtime-main.b2ceac91.js.map",
+    "main.css": "/webcv/static/css/main.b2debbad.chunk.css",
+    "main.js": "/webcv/static/js/main.4b3af0b5.chunk.js",
+    "main.js.map": "/webcv/static/js/main.4b3af0b5.chunk.js.map",
+    "runtime-main.js": "/webcv/static/js/runtime-main.93b8cda1.js",
+    "runtime-main.js.map": "/webcv/static/js/runtime-main.93b8cda1.js.map",
     "static/css/2.af3c1da9.chunk.css": "/webcv/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.976d3fc2.chunk.js": "/webcv/static/js/2.976d3fc2.chunk.js",
-    "static/js/2.976d3fc2.chunk.js.map": "/webcv/static/js/2.976d3fc2.chunk.js.map",
+    "static/js/2.b4fb9d85.chunk.js": "/webcv/static/js/2.b4fb9d85.chunk.js",
+    "static/js/2.b4fb9d85.chunk.js.map": "/webcv/static/js/2.b4fb9d85.chunk.js.map",
     "index.html": "/webcv/index.html",
-    "precache-manifest.c2c0337bc22702b397a187245e41cccf.js": "/webcv/precache-manifest.c2c0337bc22702b397a187245e41cccf.js",
+    "precache-manifest.ea4f58ca45fcd7b6459301c6caebd6fe.js": "/webcv/precache-manifest.ea4f58ca45fcd7b6459301c6caebd6fe.js",
     "service-worker.js": "/webcv/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/webcv/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.31ad1170.chunk.css.map": "/webcv/static/css/main.31ad1170.chunk.css.map",
-    "static/js/2.976d3fc2.chunk.js.LICENSE.txt": "/webcv/static/js/2.976d3fc2.chunk.js.LICENSE.txt",
+    "static/css/main.b2debbad.chunk.css.map": "/webcv/static/css/main.b2debbad.chunk.css.map",
+    "static/js/2.b4fb9d85.chunk.js.LICENSE.txt": "/webcv/static/js/2.b4fb9d85.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/webcv/static/media/logo.5d5d9eef.svg",
-    "static/media/photoprofil.png": "/webcv/static/media/photoprofil.fe83ddf8.png"
+    "static/media/photoprofil.jpeg": "/webcv/static/media/photoprofil.9c0b74e8.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2ceac91.js",
+    "static/js/runtime-main.93b8cda1.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.976d3fc2.chunk.js",
-    "static/css/main.31ad1170.chunk.css",
-    "static/js/main.db62d15a.chunk.js"
+    "static/js/2.b4fb9d85.chunk.js",
+    "static/css/main.b2debbad.chunk.css",
+    "static/js/main.4b3af0b5.chunk.js"
   ]
 }
