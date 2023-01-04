@@ -9,7 +9,7 @@ const Aboutme = () => {
            Bidouilleur depuis toujours, développeur depuis 6 ans, dont plus de 3 ans 
            au niveau professionnel, je suis en constante recherche de challenge et d'apprentissage.
            Selon moi, un développeur heureux est capable de tout ! J'oeuvre donc au bien-être de mon entourage professionnel !
-           Team player, Product oriented, Agile sont mes 3 crédos.
+           Team player, Product oriented, et Agile sont mes 3 crédos.
            Mes technos préférées sont Ruby/Rails et JS (Node et react).
         </p>
       </div>

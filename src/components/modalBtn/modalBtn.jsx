@@ -9,7 +9,7 @@ const setParagraphe = (company) => {
         return "Maintenance et évolution de la base de code Legacy : \n\
         - Développement d'un micro service utilisant Kafka, Playwright, et PGSql en BDD. \n\
         - Mise en place des méthodologies agiles au sein de mon équipe\n\
-        - Toujours orienté clients/Utilisateursn\n\
+        - Toujours orienté clients/Utilisateurs\n\
         - Accompagnement des nouveaux arrivants sur le produit."
     }
     if (company === "Veepee") {
