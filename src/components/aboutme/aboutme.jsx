@@ -6,11 +6,12 @@ const Aboutme = () => {
       <h5 className="profileTitle">À propos de moi</h5>
       <div className="blockContent">
         <p className="apropos">
-           Bidouilleur depuis toujours, développeur depuis 6 ans, dont plus de 3 ans 
-           au niveau professionnel, je suis en constante recherche de challenge et d'apprentissage.
-           Selon moi, un développeur heureux est capable de tout ! J'oeuvre donc au bien-être de mon entourage professionnel !
-           Team player, Product oriented, et Agile sont mes 3 crédos.
-           Mes technos préférées sont Ruby/Rails et JS (Node et react).
+        Développeur depuis 7 ans, j'ai mené à bien de nombreux projets professionnels.
+        Site vitrine, e-commerces, jusqu'à des web apps plus complexes telles que Plezi (SaaS), Veepee sur plusieurs projets,
+        je prends toujours à coeur de répondre au mieux aux demandes des utilisateurs avec ma vision produit que j'ai développée au cours de mes expériences.
+        Je travaille efficacement pour apporter un maximum de valeur au plus vite, et je communique bien avec mes pairs pour faciliter la collaboration et le suivi des projets.
+
+        Au plaisir de travailler avec vous !
         </p>
       </div>
     </>
